@@ -1,0 +1,26 @@
+* {
+    margin: 0; padding: 0; border: none; }
+    
+
+.main1 {background-color: red;}
+
+/*menu */
+
+#menu, #logo {line-height: 75px; background-color: #161616;}
+
+#logo {float:left; margin-left: 50px; font-size: 380%; text-decoration: none; color: #161616;}
+
+p {font-family: 'Dosis', sans-serif;}
+
+#menu {font-size: 110%; letter-spacing: 4px; background-color: #161616;}
+
+#menu li {float: right; list-style-type: none; margin-right: 30px; color: white;} 
+
+#menu a {font-size: xx-large; text-decoration: none; color: inherit;}
+
+#menu a:hover {color: aqua;}
+
+#menu a:visited {text-decoration: underline;}
+
+.active {border-bottom: 1px solid #161616;}
+
