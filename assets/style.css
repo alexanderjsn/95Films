@@ -1,15 +1,26 @@
 * {
     margin: 0; padding: 0; border: none; }
     
+body {font-family: 'Poppins' sans-serif; font-weight: 300;}
 
-.main1 {background-color: red;}
+h1, h2, h3 {font-family: 'Bebas' sans-serif;}
+
+p {font-family:'Poppins' sans-serif;}
 
 /*menu */
 
-#menu #logo {line-height: 75px; position:fixed;}
+#menu, #logo {line-height: 75px; position:fixed;}
+
+#logo {float: left; font-size: 380%; color: #161616; text-decoration: none; margin-left: 50px;}
 
 #menu {letter-spacing: 4px; background-color: #161616; font-size: 110%;}
 
-#menu li {list-style-type: none; color: white; float: right; }
+#menu li {list-style-type: none; color: white; float: right; margin-right:30px; font-family: 'Poppins' sans-serif; }
 
 #menu a {font-size: large; text-decoration: none; color: white;}
+
+#menu a:hover {color: aqua;}
+
+.active {border-bottom: 1px solid white;}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
