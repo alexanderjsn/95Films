@@ -36,9 +36,11 @@ p {font-family:'Poppins' sans-serif;}
     overflow:hidden;
 }
 
-.portfolio {background-color: #161616}
+/* gallery */
 
+#photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
 
+#photos > img {width: 100%;}
 /* footer */
 
 
