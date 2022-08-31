@@ -9,18 +9,37 @@ p {font-family:'Poppins' sans-serif;}
 
 /*menu */
 
-#menu, #logo {line-height: 75px; position:fixed;}
+#menu, #logo {line-height: 75px;}
 
-#logo {float: left; font-size: 380%; color: #161616; text-decoration: none; margin-left: 50px;}
+#logo {float: left; 
+    margin-left: 50px; 
+    font-size: 380%; 
+    text-decoration: none; 
+    color: #161616;}
 
-#menu {letter-spacing: 4px; background-color: #161616; font-size: 110%;}
+#menu {font-size: 110%; letter-spacing: 4px; }
 
-#menu li {list-style-type: none; color: white; float: right; margin-right:30px; font-family: 'Poppins' sans-serif; }
+#menu li {float: right; list-style-type: none; margin-right: 30px; color: #161616;}
 
-#menu a {font-size: large; text-decoration: none; color: white;}
+#menu a {font-size: xx-large; text-decoration: none; color: #161616;}
 
-#menu a:hover {color: aqua;}
+#menu a:hover {color:aqua;}
 
-.active {border-bottom: 1px solid white;}
+.active {border-bottom: 1px solid #161616;}
+
+/*main section*/
+#hero {
+    height: 600px; 
+    width: 100%; 
+    background: url('../Images/heroimg/hero.jpeg') 
+    no-repeat center center; 
+    overflow:hidden;
+}
+
+.portfolio {background-color: #161616}
+
+
+/* footer */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
