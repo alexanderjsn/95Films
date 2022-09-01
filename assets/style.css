@@ -56,8 +56,15 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 
 #photos > img {width: 100%;}
 /* footer */
+footer {height: 150px;}
+.socials {text-align: center; }
+.socials > li {display: inline; }
+.socials i {font-size: 160%; margin: 1%; padding: 5%; color: #161616}
 
-footer {background-color: #161616}
+.fa-youtube:hover {color: #FF0000;}
+.fa-square-twitter:hover {color: #1DA1F2;}
+.fa-facebook:hover {color: #4267B2;}
+.fa-instagram:hover {color: #833AB4;}
 
-header {background-color: #161616}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
