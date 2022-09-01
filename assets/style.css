@@ -52,15 +52,28 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 
 /* gallery */
 
-#photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
+#photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px;}
 #photos > img {width: 100%;}
+
+#photos1 {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
+#photos1 > img {width: 100%;}
+
+.test {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
+.test > img {width: 10%;}
 
 
 /* contact page */
 
-.contact1, .contact2 {text-align: center; background-color: red;}
+.contact2 {background-color: #161616; margin-top: 200px; text-align: center; width: 100%;}
+label {display: inline-block;}
+input[type=text]{display: inline-block; border: 1px solid white;}
+input[type=tel]{display: inline-block; border: 1px solid white}
+input[type=submit]{border: 1px solid; background-color: coral;}
+#message{display: inline-block; border: 1px solid white}
+.contact2, h2, p {color: white;}
 
-iframe {display: inline;}
+
+
 /* footer */
 footer {height: 150px; margin: 10px;}
 .socials {text-align: center; }
