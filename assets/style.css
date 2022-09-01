@@ -53,13 +53,19 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 /* gallery */
 
 #photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
-
 #photos > img {width: 100%;}
+
+
+/* contact page */
+
+.contact1, .contact2 {text-align: center; background-color: red;}
+
+iframe {display: inline;}
 /* footer */
-footer {height: 150px;}
+footer {height: 150px; margin: 10px;}
 .socials {text-align: center; }
 .socials > li {display: inline; }
-.socials i {font-size: 160%; margin: 1%; padding: 5%; color: #161616}
+.socials i {font-size: 200%; margin: 1%; padding: 4%; color: #161616}
 .fa-youtube:hover {color: #FF0000;}
 .fa-square-twitter:hover {color: #1DA1F2;}
 .fa-facebook:hover {color: #4267B2;}
