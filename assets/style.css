@@ -48,6 +48,10 @@ mainsection {border-bottom: 1px solid #161616;}
 .rightmain {width: 60%; float: right; line-height: 40px; clear: both; margin-bottom: 50px; font-size: 150%; margin-right: 100px;}
 .centermain {width: 60%; text-align: center; line-height: 40px; clear: both;  font-size: 150%;}
 
+#aboutus{font-size: x-large; text-align: center;}
+#aboutus > p {line-height: 90px;}
+.aboutp {font-size: smaller; text-align: left;}
+
 hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 
 .right-main h2{text-align: right;}
