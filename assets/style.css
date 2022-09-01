@@ -36,6 +36,20 @@ p {font-family:'Poppins' sans-serif;}
     overflow:hidden;
 }
 
+/*main section descriptions*/
+#mainsection {height: 600px;}
+#description {font-size: 200%; text-align: center; top: 150px;}
+mainsection {border-bottom: 1px solid #161616;}
+#leftmain {padding-top: 30px; width: 33%; float: left;}
+#rightmain {padding-top: 30px; width: 33%; float: right;}
+.leftmain {width: 60%; float: left; line-height: 40px; clear: both; margin-bottom: 50px; font-size: 150%; margin-left: 100px;}
+.rightmain {width: 60%; float: right; line-height: 40px; clear: both; margin-bottom: 50px; font-size: 150%; margin-right: 100px;}
+
+hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
+
+.right-main h2{text-align: right;}
+.right-main p {text-align: right;}
+
 /* gallery */
 
 #photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
@@ -43,5 +57,7 @@ p {font-family:'Poppins' sans-serif;}
 #photos > img {width: 100%;}
 /* footer */
 
+footer {background-color: #161616}
 
+header {background-color: #161616}
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
