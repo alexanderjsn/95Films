@@ -3,7 +3,7 @@
     
 body {font-family: 'Poppins' sans-serif; font-weight: 300;}
 
-h1, h2, h3 {font-family: 'Bebas' sans-serif;}
+h1, h2, h3 {font-family: 'Bebas Neue' sans-serif;}
 
 p {font-family:'Poppins' sans-serif;}
 
@@ -60,11 +60,10 @@ footer {height: 150px;}
 .socials {text-align: center; }
 .socials > li {display: inline; }
 .socials i {font-size: 160%; margin: 1%; padding: 5%; color: #161616}
-
 .fa-youtube:hover {color: #FF0000;}
 .fa-square-twitter:hover {color: #1DA1F2;}
 .fa-facebook:hover {color: #4267B2;}
 .fa-instagram:hover {color: #833AB4;}
 
+.foot {text-align: center; position: relative; top: 50px;}
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
