@@ -1,7 +1,7 @@
 * {
     margin: 0; padding: 0; border: none; }
     
-body {font-family: 'Poppins' sans-serif; font-weight: 300; background-color: #FAFFFD;}
+body {font-family: 'Poppins' sans-serif; font-weight: 300; background-color: #FAFFFD; scroll-behavior: smooth;}
 
 h1, h2, h3 {font-family: 'Bebas Neue' sans-serif;}
 
@@ -40,7 +40,7 @@ p {font-family:'Poppins' sans-serif;}
 
 #aboutbanner {height: 600px; 
     width: 100%; 
-    background: url(../Images/gallery/astronautfilm.jpeg) 
+    background: url(../Images/gallery/astronaut_on_set.jpeg) 
     no-repeat center center; 
     overflow:hidden;}
 
@@ -59,10 +59,11 @@ bottom: 150px; right: 950px; position: absolute;
 
 /*main section descriptions*/
 
-#aboutheading {font-size: 300%; float: left; text-align: left;}
+#aboutheading {font-size: 300%; float: left; text-align: left; font-family: 'Dosis' sans-serif;}
 #aboutheading > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
 #aboutheading > h3 {font-family: 'Dosis';font-size: 10%;}
 #aboutsection {font-size: 300%; float: left; text-align: left;}
+#portfolio {font-size: 300%; float: left; text-align: left;}
 
 #aboutsection > h3 {font-family: 'Dosis';}
 #aboutsection > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
@@ -78,7 +79,7 @@ bottom: 150px; right: 950px; position: absolute;
 #aboutus{font-size: x-large; text-align: center;}
 #aboutus > p {line-height: 90px;}
 .aboutp {font-size: smaller; text-align: left;}
-.aboutp2 {}
+
 
 .container1 {height: 100%; padding:100px; 
     border-style: solid; border-color:
