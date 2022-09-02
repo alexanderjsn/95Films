@@ -111,7 +111,10 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 
 /* contact page */
 
-.form {float: right;}
+.form {float: right; }
+input[type=text]{width: 100%; border: 2px solid #161616;}
+input[type=tel]{width: 100%; border: 2px solid #161616;}
+.message{width: 100%; border: 2px solid #161616;}
 
 
 /* footer */
