@@ -40,9 +40,15 @@ p {font-family:'Poppins' sans-serif;}
 
 #aboutbanner {height: 600px; 
     width: 100%; 
-    background: url(../Images/gallery/filmset.jpeg) 
+    background: url(../Images/gallery/astronautfilm.jpeg) 
     no-repeat center center; 
-    overflow:hidden; margin-top: 70px;}
+    overflow:hidden;}
+
+    #workbanner {height: 600px; 
+        width: 100%; 
+        background: url(../Images/gallery/workprocess2.jpg) 
+        no-repeat center center; 
+        overflow:hidden;}
 
 #cover-text1, #cover-text1 h2 {color: #FAFFFD;}
 #cover-text1 {font-size: 270%; font-family: 'Dosis' sans-serif;
