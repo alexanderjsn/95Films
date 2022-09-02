@@ -90,7 +90,7 @@ bottom: 150px; right: 950px; position: absolute;
      lightgrey; border-width: 2px; background-color:#ffff; 
      margin: auto; width: 80%;}
 
-
+     
 
 hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 
@@ -112,9 +112,10 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 /* contact page */
 
 .form {float: right; }
-input[type=text]{width: 100%; border: 2px solid #161616;}
-input[type=tel]{width: 100%; border: 2px solid #161616;}
-.message{width: 100%; border: 2px solid #161616;}
+input[type=text]{width: 50%; border: 2px solid #161616; margin: 5px; padding: 10px;}
+input[type=tel]{width: 50%; border: 2px solid #161616;  margin: 5px; padding: 10px;}
+.message{width: 50%; border: 2px solid #161616;  margin: 5px; padding: 10px;}
+input[type=submit]{background-color: lightgray; width: 50%; height: 50px; padding: 10px;}
 
 
 /* footer */
