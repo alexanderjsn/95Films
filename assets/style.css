@@ -41,7 +41,7 @@ p {font-family:'Poppins' sans-serif;}
 
 #aboutbanner {height: 600px; 
     width: 100%; 
-    background: url(../Images/gallery/astronaut_on_set.jpeg) 
+    background: url(../Images/gallery/astronautfilm.jpeg) 
     no-repeat center center; 
     overflow:hidden;}
 
@@ -89,7 +89,10 @@ bottom: 150px; right: 950px; position: absolute;
     border-style: solid; border-color:
      lightgrey; border-width: 2px; background-color:#ffff; 
      margin: auto; width: 80%;}
-
+     .container2 {height: 800px; padding:100px; 
+        border-style: solid; border-color:
+         lightgrey; border-width: 2px; background-color:#ffff; 
+         margin: auto; width: 80%;}
      
 
 hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
@@ -116,7 +119,7 @@ input[type=text]{width: 50%; border: 2px solid #161616; margin: 5px; padding: 10
 input[type=tel]{width: 50%; border: 2px solid #161616;  margin: 5px; padding: 10px;}
 .message{width: 50%; border: 2px solid #161616;  margin: 5px; padding: 10px;}
 input[type=submit]{background-color: lightgray; width: 50%; height: 50px; padding: 10px;}
-
+#contactwrap {height: 100%;}
 
 /* footer */
 footer {height: 150px; margin: 10px;}
