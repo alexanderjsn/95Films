@@ -38,11 +38,11 @@ p {font-family:'Poppins' sans-serif;}
     overflow:hidden;
 }
 
-#banner2 {height: 600px; 
+#aboutbanner {height: 600px; 
     width: 100%; 
-    background: url(../Images/gallery/filmset_on_field.jpg) 
+    background: url(../Images/gallery/filmset.jpeg) 
     no-repeat center center; 
-    overflow:hidden;}
+    overflow:hidden; margin-top: 70px;}
 
 #cover-text1, #cover-text1 h2 {color: #FAFFFD;}
 #cover-text1 {font-size: 270%; font-family: 'Dosis' sans-serif;
@@ -56,6 +56,10 @@ bottom: 150px; right: 950px; position: absolute;
 #aboutheading {font-size: 300%; float: left; text-align: left;}
 #aboutheading > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
 #aboutheading > h3 {font-family: 'Dosis';font-size: 10%;}
+#aboutsection {font-size: 300%; float: left; text-align: left;}
+
+#aboutsection > h3 {font-family: 'Dosis';}
+#aboutsection > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
 
 #mainsection {height: 600px; display:flex; align-items: center; margin-top: 50px;}
 #description {font-size: 200%; text-align: center; margin-top: 50px; color: #161616}
@@ -91,8 +95,6 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 #photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px;}
 #photos > img {width: 100%;}
 
-#photos1 {clear: both; line-height: 0; column-count: 3; column-gap: 0px; }
-#photos1 > img {width: 100%;}
 
 
 
