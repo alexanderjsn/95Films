@@ -204,7 +204,8 @@ footer {height: 150px; margin: 10px;}
 @media screen and (max-width: 480px) {
 
     #cover-text1 {
-        font-size: 170%; left: 106px;
+        font-size: 140%; left: 106px;
+        
     }
 
     #container1 {
@@ -267,43 +268,49 @@ footer {height: 150px; margin: 10px;}
 
 
 @media screen and (max-width: 390px) {
+
+    .header {
+        height: 12px; }
+
+/* main page media queries */
+
 #cover-text1 {
-    font-size: 100%;
-    left: 49px;
-    top: 174px;
-}
+  
+        font-size: 100%;
+        left: 25px;
+        top: 327px;
+    }
 
-.socials {
-    top: 25px;
-    left: 69px;
-}
-
-.foot {
-    top: 18px;
-    left: 71px;
-}
 
 #hero {
-        height: 174px;
-        margin-left: -45px;
+        height: 308px;
+        margin-left: px;
+    
     }
 
     #aboutheading {
-
-        margin-left: -75px;
+        margin-left: 75px;
         font-size: 90%;
+}
+
+#aboutheading > p {
+width: 100%;
+text-align: left;
 }
 
 #aboutbanner {
     height: 308px;
     margin-left: -51px;
+    width: 480px;
 }
 
 
 #aboutsection {
-    margin-left: -75px;
+    margin-left: 75px;
     font-size: 90%;
 }
+
+/* footer media queries */
 
 .foot {
     top: 18px;
@@ -314,6 +321,28 @@ footer {height: 150px; margin: 10px;}
     top: 25px;
     left: 24px;
 }
+
+
+/*  media queries for contact page */
+#description {
+    font-size: 150%;
+    margin-left: -163px;
+}
+
+#contactheading {
+    font-size: 180%;
+
+}
+
+.form {
+    float: right;
+    margin-left: -148px;
+}
+
+.contactfoot {
+    top: 5px;
+}
+
 }
 
 
@@ -325,6 +354,3 @@ footer {height: 150px; margin: 10px;}
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-
-    
-
