@@ -143,11 +143,15 @@ footer {height: 150px; margin: 10px;}
 
 @media screen and (max-width: 1200px) {
 
-    #cover-text1 {right: 782px; width: 100px;}
+    #cover-text1 {right: 782px; }
 
     
     }
     
+    @media screen and (max-width: 1024) {
+        #cover-text1 {right: 593px;}
+
+    }
 
 
 @media screen and (max-width: 950px) {
