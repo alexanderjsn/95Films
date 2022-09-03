@@ -143,20 +143,20 @@ footer {height: 150px; margin: 10px;}
 
 @media screen and (max-width: 1200px) {
 
-    #cover-text1 {right: 782px; }
+    #cover-text1 {right: 569px; }
 
     
     }
     
     @media screen and (max-width: 1024) {
-        #cover-text1 {right: 593px;}
+        #cover-text1 {right: 499px;}
 
     }
 
 
 @media screen and (max-width: 950px) {
     #cover-text1 {
-        left: 189px;;
+        left: 189px;
     }
 
     #logo {
@@ -166,8 +166,35 @@ footer {height: 150px; margin: 10px;}
     .foot {top: 23px;}
 }
 
+
+@media screen and (max-width: 768px) {
+    #cover-text1 {
+        left: 120px;
+        top: 480px;
+    }
+
+    #logo {
+       font-size: 120%;
+    }
+
+    .foot {
+        top: 23px;
+    }
+}
+
+
 @media screen and (max-width: 480px) {
-    #cover-text1 {right: 576px; width: 100px;}
+    #cover-text1 {font-size: 170%; left: 106px;}
+    #container1 {padding: 223px}
+    #aboutheading {
+        font-size: 100%; }
+        #aboutheading > p {
+            font-size: 90%; }
+    #aboutsection {
+        font-size: 100%; 
+    }
+    #aboutsection > p {
+        font-size: 90%; }
 }
 
 
