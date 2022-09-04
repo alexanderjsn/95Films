@@ -1,3 +1,5 @@
+/*General*/
+
 * {
     margin: 0; padding: 0; border: none; }
     
@@ -30,7 +32,9 @@ p {font-family:'Poppins' sans-serif;}
 
 .active {border-bottom: 1px solid #161616;}
 
-/*main section*/
+/*homepage*/
+
+/*hero image*/
 #hero {
     height: 600px; 
     width: 100%; 
@@ -39,11 +43,15 @@ p {font-family:'Poppins' sans-serif;}
     overflow:hidden;
 }
 
+/*second image*/
+
 #aboutbanner {height: 600px; 
     width: 100%; 
     background: url(../Images/gallery/astronautfilm.jpeg) 
     no-repeat center center; 
     overflow:hidden;}
+
+/*Third image*/
 
     #workbanner {height: 600px; 
         width: 100%; 
@@ -51,6 +59,7 @@ p {font-family:'Poppins' sans-serif;}
         no-repeat center center; 
         overflow:hidden;}
 
+/*text on hero image (95Films)*/
 #cover-text1, #cover-text1 h2 {color: #FAFFFD;}
 #cover-text1 {font-size: 270%; font-family: 'Dosis' sans-serif;
 text-transform: uppercase; letter-spacing: 4px;
@@ -60,52 +69,34 @@ bottom: 150px; right: 950px; position: absolute;
 
 
 
-/*main section descriptions*/
+/*main section text content*/
 
-#aboutheading {font-size: 300%; float: left; text-align: left; font-family: 'Dosis' sans-serif;}
-#aboutheading > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
-#aboutheading > h3 {font-family: 'Dosis';font-size: 10%;}
-#aboutsection {font-size: 300%; float: left; text-align: left;}
+.aboutheading {font-size: 300%; float: left; text-align: left; font-family: 'Dosis' sans-serif;}
+.aboutheading > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
+.aboutheading > h3 {font-family: 'Dosis';font-size: 10%;}
+.aboutsection {font-size: 300%; float: left; text-align: left;}
 #portfolio {font-size: 300%; float: left; text-align: left;}
 
-#contactheading {font-size: 300%; float: left; text-align: left; font-family: 'Dosis' sans-serif;}
-#contactheading > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}
+.contactheading {font-size: 300%; float: left; text-align: left; font-family: 'Dosis' sans-serif;}
+.contactheading > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}
 
-#aboutsection > h3 {font-family: 'Dosis';}
-#aboutsection > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
+.aboutsection > h3 {font-family: 'Dosis';}
+.aboutsection > p {font-family: 'Dosis';font-size: 30%; float: left; text-align: left;}¨
 
 #mainsection {height: 600px; display:flex; align-items: center; margin-top: 50px;}
-#description {font-size: 200%; text-align: center; margin-top: 50px; color: #161616}
-#leftmain {padding-top: 30px; width: 33%; float: left;}
-#rightmain {padding-top: 30px; width: 33%; float: right;;}
-.leftmain {width: 60%; float: left; line-height: 40px; clear: both; margin-bottom: 50px; font-size: 150%; margin-left: 100px;} 
-.rightmain {width: 60%; float: right; line-height: 40px; clear: both; margin-bottom: 50px; font-size: 150%; margin-right: 100px;}
-.centermain {width: 60%; text-align: center; line-height: 40px; clear: both;  font-size: 150%;}
+.description {font-size: 200%; text-align: center; margin-top: 50px; color: #161616}
 
 #aboutus{font-size: x-large; text-align: center;}
 #aboutus > p {line-height: 90px;}
 .aboutp {font-size: smaller; text-align: left;}
 
-
+/*background div*/
 .container1 {height: 100%; padding:100px; 
     border-style: solid; border-color:
      lightgrey; border-width: 2px; background-color:#ffff; 
      margin: auto; width: 80%;}
-     .container2 {height: 800px; padding:100px; 
-        border-style: solid; border-color:
-         lightgrey; border-width: 2px; background-color:#ffff; 
-         margin: auto; width: 80%;}
+
      
-
-hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
-
-.right-main h2{text-align: right;}
-.right-main p {text-align: right;}
-
-.work {text-align: center;} 
-.work > img {max-width: 100%; height: auto;}
-
-
 /* gallery */
 
 #photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px;}
@@ -113,15 +104,21 @@ hr {border-top: 1px solid #161616; width: 100%; margin: 5px 0; }
 
 
 
-
 /* contact page */
 
+/*form*/
 .form {float: right; }
 input[type=text]{width: 50%; border: 2px solid #161616; margin: 5px; padding: 10px;}
 input[type=tel]{width: 50%; border: 2px solid #161616;  margin: 5px; padding: 10px;}
 .message{width: 50%; border: 2px solid #161616;  margin: 5px; padding: 10px;}
 input[type=submit]{background-color: lightgray; width: 50%; height: 50px; padding: 10px;}
 #contactwrap {height: 100%;}
+
+/*background div (contact page)*/
+.container2 {height: 800px; padding:100px; 
+    border-style: solid; border-color:
+     lightgrey; border-width: 2px; background-color:#ffff; 
+     margin: auto; width: 80%;}
 
 
 /* footer */
@@ -233,20 +230,20 @@ footer {height: 150px; margin: 10px;}
         padding: 223px
     }
     
-    #aboutheading {
+    .aboutheading {
         font-size: 100%; 
     }
 
-        #aboutheading > p {
+        .aboutheading > p {
 
             font-size: 90%; 
         }
 
-    #aboutsection {
+    .aboutsection {
         font-size: 100%; 
     }
 
-    #aboutsection > p 
+    .aboutsection > p 
     {
         font-size: 90%; 
     }
@@ -263,14 +260,14 @@ footer {height: 150px; margin: 10px;}
     font-size: 0%;
  }
 
- #contactheading {
+ .contactheading {
     font-size: 200%;
     /* float: left; */
     text-align: left;
     font-family: 'Dosis' sans-serif;
     margin-top: -148px;
 }
-#description {
+.description {
     font-size: 200%;
     text-align: center;
     margin-top: 50px;
@@ -312,12 +309,12 @@ footer {height: 150px; margin: 10px;}
     
     }
 
-    #aboutheading {
+    .aboutheading {
         margin-left: 75px;
         font-size: 90%;
 }
 
-#aboutheading > p {
+.aboutheading > p {
 width: 100%;
 text-align: left;
 }
@@ -329,7 +326,7 @@ text-align: left;
 }
 
 
-#aboutsection {
+.aboutsection {
     margin-left: 75px;
     font-size: 90%;
 }
@@ -348,12 +345,12 @@ text-align: left;
 
 
 /*  media queries for contact page */
-#description {
+.description {
     font-size: 150%;
     margin-left: -163px;
 }
 
-#contactheading {
+.contactheading {
     font-size: 180%;
 
 }
@@ -368,7 +365,7 @@ text-align: left;
 }
 
 }
-
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
@@ -378,3 +375,4 @@ text-align: left;
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
