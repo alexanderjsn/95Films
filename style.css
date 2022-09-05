@@ -515,7 +515,34 @@ footer {
 	.socials {
 		margin-left: 20%;
 	}
+
+
+	
 }
+
+@media screen and (max-width: 340px) {
+
+#menu {
+    letter-spacing: 0px;
+    clear: left;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 14px;
+    line-height: 25px;
+    font-size: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    color: #161616;
+}
+
+}
+
 @media screen and (max-width: 280px) {
 	.socials {
 		margin-left: 20%;
@@ -542,6 +569,8 @@ footer {
 	#photos > img {
 		width: 140%;
 	}
+
+	
 }
 
 
