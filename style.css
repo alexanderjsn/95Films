@@ -144,10 +144,88 @@ footer {height: 150px; margin: 10px;}
 
 /* media queries */
 
+/*for larger screens */
+
 @media screen and (max-width: 1200px) {
 
 
 }
+
+/* for medium screens */
+
+@media screen and (max-width: 950px) {
+
+    .container1 {
+        height: 100%;
+        padding: 100px;
+        border-style: none;
+        border-color: lightgrey;
+        border-width: 0px;
+        background-color: #ffff;
+        margin: auto;
+    }
+
+    #hero {
+        height: 600px;
+        width: 131%;
+        margin-left: -16%;
+        background: url(../assets/Images/gallery/astronautfilm.jpeg) no-repeat center center;
+        overflow: hidden;
+    }
+    
+    #aboutbanner {
+        width: 132%;
+        margin-left: -16%;
+    }
+    
+    #workbanner {
+        width: 131%;
+        margin-left: -16%;
+    }
+
+    .foot {
+        top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+#hero {
+    height: 600px;
+    width: 131%;
+    margin-left: -16%;
+    background: url(../assets/Images/gallery/astronautfilm.jpeg) no-repeat center center;
+    overflow: hidden;
+}
+
+#aboutbanner {
+    width: 132%;
+    margin-left: -16%;
+}
+
+#workbanner {
+    width: 131%;
+    margin-left: -16%;
+}
+
+.foot {
+    top: 17px;
+}
+}
+
+@media screen and (max-width: 540px) {
+
+    #logo {
+        margin-left: 34%;
+    }
+    
+    .aboutheading, .aboutsection {
+        font-size: 200%;
+    }
+
+
+
 
 /* for smaller screens (tablets and phones) */
 
@@ -169,6 +247,10 @@ footer {height: 150px; margin: 10px;}
         padding: 0px;
     }
 
+    #logo {
+        margin-left: 20%;
+    }
+
     #menu {
         letter-spacing: 1px;
         clear: left;
@@ -184,7 +266,7 @@ footer {height: 150px; margin: 10px;}
 
     #hero {
         height: 239px;
-        width: 191%;
+        width: 206%;
         margin-left: -56%;
     }
     
@@ -242,6 +324,10 @@ footer {height: 150px; margin: 10px;}
     padding: 0px;
 }
 
+#logo {
+    margin-left: 20%;
+}
+
 #menu {
     letter-spacing: 1px;
     clear: left;
@@ -296,12 +382,42 @@ footer {height: 150px; margin: 10px;}
         .socials {
             margin-left: 20%;
         }
+    
+}
+
+@media screen and (max-width: 280px) {
+
+    .socials {
+    margin-left: 20%;
+    font-size: 90%;
+}
+
+#logo {
+    margin-left: 77px;
+}
 
 
-
-
+#hero {
+    height: 239px;
+    width: 218%;
+    margin-left: -56%;
 
 }
+
+#aboutbanner {
+        height: 239px;
+        width: 216%;
+        margin-left: -56%;
+}
+   
+#workbanner {
+    height: 227px;
+    width: 216%;
+    margin-left: -54%;
+}
+
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
