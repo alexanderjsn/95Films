@@ -1,4 +1,4 @@
-# Love Running
+# 95Films
 95Films is a site for a film studio that specializes in making visual content for both individuals and companies.
 The site will be targeted for potential customers of the company. 
 
