@@ -99,7 +99,7 @@ bottom: 150px; right: 950px; position: absolute;
      
 /* gallery */
 
-#photos {clear: both; line-height: 0; column-count: 3; column-gap: 0px;}
+#photos {clear: both; line-height: 0; column-count: 3; column-gap: 0;}
 #photos > img {width: 100%;}
 
 
@@ -146,9 +146,15 @@ footer {height: 150px; margin: 10px;}
 
 /*for larger screens */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 
+    #photos {
+        column-count: 2;
+    }
 
+    #photos > img {
+        width: 106%;
+    }
 }
 
 /* for medium screens */
@@ -187,6 +193,22 @@ footer {height: 150px; margin: 10px;}
         top: 30px;
     }
 
+    #photos > img {
+        width: 107%;
+    }
+
+    #photos {
+        column-count: 1;
+    }
+
+    .container2 {
+        height: 893px;
+        width: 80%;
+    }
+
+    .contactfoot {
+        top: 18px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -224,8 +246,26 @@ footer {height: 150px; margin: 10px;}
         font-size: 200%;
     }
 
+    #photos {
+        column-count: 1;
+    }
 
+    #photos > img {
+        width: 105%;
+    }
+    
+    .container2 {
+        height: 925px;
+    }
 
+    .header {
+        height: 131px;
+        width: 100%;
+        background-color: #FAFFFD;
+        padding: 15px;
+    }
+
+}
 
 /* for smaller screens (tablets and phones) */
 
@@ -291,24 +331,45 @@ footer {height: 150px; margin: 10px;}
             font-size: 100%;
         }
     
-        .aboutheading > p {
-            font-size: 60%;
-        }
     
         .aboutsection {
             font-size: 100%; 
         }
     
-        .aboutsection > p {
-            font-size: 60%;
-            }
     
             .socials {
                 margin-left: 20%;
             }
     
-    
+            .description {
+                font-size: 100%;
+                text-align: center;
+                margin-top: -99px;
+                color: #161616;
+                margin-left: -15%;
+            }
 
+            .container2 {
+                height: 100%;
+                padding: 100px;
+                border-style: nonme;
+                border-color: lightgrey;
+                border-width: 0;
+                background-color: #ffff;
+                margin: auto;
+                width: 50%;
+            }
+
+            .contactfoot {
+                text-align: center;
+                position: relative;
+                top: 12px;
+                font-size: small;
+            }
+
+            .aboutheading > p, .aboutsection > p {
+                font-size: 140%;
+            }
 
 }
 
@@ -367,17 +428,11 @@ footer {height: 150px; margin: 10px;}
         font-size: 100%;
     }
 
-    .aboutheading > p {
-        font-size: 60%;
-    }
 
     .aboutsection {
         font-size: 100%; 
     }
 
-    .aboutsection > p {
-        font-size: 60%;
-        }
 
         .socials {
             margin-left: 20%;
@@ -414,6 +469,10 @@ footer {height: 150px; margin: 10px;}
     height: 227px;
     width: 216%;
     margin-left: -54%;
+}
+
+#photos > img {
+    width: 140%;
 }
 
 }
