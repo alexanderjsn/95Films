@@ -47,7 +47,7 @@ p {font-family:'Poppins' sans-serif;}
 
 #aboutbanner {height: 600px; 
     width: 100%; 
-    background: url(../Images/gallery/astronautfilm.jpeg) 
+    background: url(../assets/Images/gallery/AdobeStock_199991460.jpeg) 
     no-repeat center center; 
     overflow:hidden;}
 
@@ -55,7 +55,7 @@ p {font-family:'Poppins' sans-serif;}
 
     #workbanner {height: 600px; 
         width: 100%; 
-        background: url(../Images/gallery/filmset_on_field_big.jpg) 
+        background: url(../assets/Images/gallery/filmset_on_field_big.jpg) 
         no-repeat center center; 
         overflow:hidden;}
 
@@ -149,7 +149,78 @@ footer {height: 150px; margin: 10px;}
 
 }
 
+@media screen and (max-width: 390px) {
 
+    .container1 {
+            width: 50%;
+            border: none;
+}
+
+.header {
+    height: 112px;
+    padding: 0px;
+}
+
+#menu {
+    letter-spacing: 1px;
+    clear: left;
+    float: left;
+    margin-left: 9px;
+    margin-bottom: 40px;
+    line-height: 25px;
+    font-size: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#hero {
+    height: 239px;
+    width: 218%;
+    margin-left: -56%;
+
+}
+
+#aboutbanner {
+        height: 239px;
+        width: 216%;
+        margin-left: -56%;
+}
+   
+#workbanner {
+    height: 227px;
+    width: 216%;
+    margin-left: -54%;
+}
+
+    .foot {
+        top: 4px;
+    }
+
+    .aboutheading {
+        font-size: 100%;
+    }
+
+    .aboutheading > p {
+        font-size: 60%;
+    }
+
+    .aboutsection {
+        font-size: 100%; 
+    }
+
+    .aboutsection > p {
+        font-size: 60%;
+        }
+
+        .socials {
+            margin-left: 20%;
+        }
+
+
+
+
+
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
