@@ -390,7 +390,7 @@ footer {
 		letter-spacing: -1px;
 		clear: left;
 		float: left;
-		margin-left: 9px;
+		margin-left: 29px;
 		margin-bottom: 40px;
 		line-height: 25px;
 		font-size: 10%;
@@ -399,27 +399,26 @@ footer {
 	}
 	#hero {
 		height: 239px;
-		width: 226%;
-		margin-left: -56%;
+		width: 121%;
 	}
 	#aboutbanner {
-		height: 239px;
-		width: 226%;
-		margin-left: -50%;
+			height: 239px;
+			width: 121%;
 	}
 	#workbanner {
 		height: 227px;
-		width: 226%;
-		margin-left: -54%;
+		width: 106%;
 	}
 	.foot {
 		top: 4px;
 	}
 	.aboutheading {
 		font-size: 100%;
+		margin-left: 20%;
 	}
 	.aboutsection {
 		font-size: 100%;
+		margin-left: 20%;
 	}
 	.socials {
 		margin-left: 20%;
@@ -494,21 +493,7 @@ footer {
 		flex-direction: row-reverse;
 		
 	}
-	#hero {
-		height: 239px;
-		width: 218%;
-		margin-left: -56%;
-	}
-	#aboutbanner {
-		height: 239px;
-		width: 216%;
-		margin-left: -56%;
-	}
-	#workbanner {
-		height: 227px;
-		width: 216%;
-		margin-left: -54%;
-	}
+
 	.foot {
 		top: 4px;
 	}
