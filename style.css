@@ -393,6 +393,7 @@ footer {
 		margin: auto;
 		width: 50%;
 	}
+	
 	.header {
 		height: 112px;
 		padding: 0px;
@@ -446,14 +447,15 @@ footer {
 		margin-left: -15%;
 	}
 	.container2 {
-		height: 100%;
-		padding: 100px;
-		border-style: none;
-		border-color: lightgrey;
-		border-width: 0;
-		background-color: #ffff;
-		margin: auto;
-		width: 50%;
+    height: -1%;
+    padding: 100px;
+    border-style: none;
+    border-color: lightgrey;
+    border-width: 0;
+    background-color: #ffff;
+    margin: auto;
+    width: 50%;
+
 	}
 	.contactfoot {
 		text-align: center;
