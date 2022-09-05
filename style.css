@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Poppins:wght@100&display=swap');
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -24,12 +23,10 @@ p {
 	height: 74px;
 	width: 100%;
 	background-color: #FAFFFD;
-	/*position: fixed;
-	z-index: 2;
-	*/
 	padding: 15px;
 }
-/*menu */
+
+/* header */
 #menu, #logo {
 	line-height: 75px;
 }
@@ -61,46 +58,29 @@ p {
 .active {
 	border-bottom: 1px solid #161616;
 }
-/*homepage*/
-/*hero image*/
+
+/*main page*/
 #hero {
 	height: 600px;
 	width: 100%;
 	background: url(astronautfilm.jpeg)no-repeat center center;
 	overflow:hidden;
 }
-/*second image*/
+
 #aboutbanner {
 	height: 600px;
 	width: 100%;
 	background: url(AdobeStock_199991460.jpeg)no-repeat center center;
 	overflow:hidden;
 }
-/*Third image*/
+
 #workbanner {
 	height: 600px;
 	width: 100%;
 	background: url(filmset_on_field_big.jpg)no-repeat center center;
 	overflow:hidden;
 }
-/*text on hero image (95Films)*/
-#cover-text1, #cover-text1 h2 {
-	color: #FAFFFD;
-}
-#cover-text1 {
-	font-size: 270%;
-	font-family: 'Dosis' sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	width: 300px;
-	height: 200px;
-	padding-top: 40px;
-	padding-left: 10px;
-	bottom: 150px;
-	right: 950px;
-	position: absolute;
-}
-/*main section text content*/
+
 .aboutheading {
 	font-size: 300%;
 	float: left;
@@ -154,12 +134,17 @@ p {
 	align-items: center;
 	margin-top: 50px;
 }
-.description {
+.description, .validationpage {
 	font-size: 200%;
 	text-align: center;
 	margin-top: 50px;
 	color: #161616
 }
+
+.validationpage {
+margin-left: 20%;
+}
+
 #aboutus{
 	font-size: x-large;
 	text-align: center;
@@ -171,8 +156,8 @@ p {
 	font-size: smaller;
 	text-align: left;
 }
-/*background div*/
-.container1 {
+
+.containerone {
 	height: 100%;
 	padding:100px;
 	border-style: solid;
@@ -225,7 +210,7 @@ input[type=submit]{
 	height: 100%;
 }
 /*background div (contact page)*/
-.container2 {
+.containertwo {
 	height: 800px;
 	padding:100px;
 	border-style: solid;
@@ -299,7 +284,7 @@ footer {
 }
 /* for medium screens */
 @media screen and (max-width: 950px) {
-	.container1 {
+	.containerone {
 		height: 100%;
 		padding: 100px;
 		border-style: none;
@@ -331,7 +316,7 @@ footer {
 	#photos {
 		column-count: 1;
 	}
-	.container2 {
+	.containertwo {
 		height: 893px;
 		width: 80%;
 	}
@@ -371,7 +356,7 @@ footer {
 	#photos > img {
 		width: 105%;
 	}
-	.container2 {
+	.containertwo {
 		height: 925px;
 	}
 	.header {
@@ -383,7 +368,7 @@ footer {
 }
 /* for smaller screens (tablets and phones) */
 @media screen and (max-width: 480px) {
-	.container1 {
+	.containerone {
 		height: 100%;
 		padding: 100px;
 		border-style: none;
@@ -439,14 +424,14 @@ footer {
 	.socials {
 		margin-left: 20%;
 	}
-	.description {
+	.description, .validationpage {
 		font-size: 100%;
 		text-align: center;
 		margin-top: -99px;
 		color: #161616;
 		margin-left: -15%;
 	}
-	.container2 {
+	.containertwo {
     height: -1%;
     padding: 100px;
     border-style: none;
@@ -455,6 +440,7 @@ footer {
     background-color: #ffff;
     margin: auto;
     width: 35%;
+	margin-right: 15%;
 }
 
 	.contactfoot {
@@ -485,7 +471,7 @@ footer {
 
 }
 @media screen and (max-width: 390px) {
-	.container1 {
+	.containerone {
 		width: 36%;
 		border: none;
 	}
@@ -500,12 +486,13 @@ footer {
 		letter-spacing: -1px;
 		clear: left;
 		float: left;
-		margin-left: 0px;
+		margin-left: 10%;
 		margin-bottom: 40px;
 		line-height: 25px;
 		font-size: 10%;
 		display: flex;
 		flex-direction: row-reverse;
+		
 	}
 	#hero {
 		height: 239px;

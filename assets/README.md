@@ -8,7 +8,6 @@ The site will be targeted for potential customers of the company.
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-![This is an image](../menu.png)
 
 ### Navigation Bar
 
@@ -16,17 +15,22 @@ The navigation bar is featured on all three pages and is fully responsive. The b
 contrasts to the white background, making it more accessible. The navigation bar also contains a logo that links to the homepage and links to each section of the website. 
 An underscore appears underneath the active link, to show the user which page they are on. 
 
+![This is an image](../menu.png)
 
 ## Main Section
 
-The main section contains an image showcasing the kind of work that the company does. It also contains a big heading with a paragraph underneath that
+The main section contains an image showcasing the kind of work that the company does. It also contains two big headings followed by paragraphs underneath that
 tells the user what kind of services the company offers and a the company background.
 
+![This is an image](../main_section.png)
 
 ## The Footer
 
 The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
+The footer is valuable to the user as it encourages them to keep connected via social media. 
+
+![This is an image](../footer_page.png)
+
 
 ## Gallery
 
@@ -34,12 +38,16 @@ The gallery includes several images of the company working on films. This gives 
 The images potrays grand moviesets and expensive filmmaking equipment, which also provide value to the user by showcasing what kind of level the company operates on. 
 
 
+![This is an image](../gallery.png)
+
 ## The Contact Page
 
 This page will allow the user to reach out to the company to ask any questions or book a consultation.  
 The page contains a responsive form which encoourages the user to enter their first and last name, phonenumber and also leave a message. 
 The heading and paragraph on the site provides the user with information on the company location and encourages the user to
 contact the company or visit the office. 
+
+![This is an image](../contact-page.png)
 
 ## Features Left to Implement
 I would like to add a responsive hamburger navigation bar, that only appears on medium to smaller screens. The navigation menu would
@@ -58,6 +66,9 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Validator Testing
+
+![This is an image](../lighthousereport.png)
+
 ### HTML
 No errors were returned when passing through the official W3C validator
 ### CSS
