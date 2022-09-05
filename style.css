@@ -541,6 +541,9 @@ footer {
     color: #161616;
 }
 
+.contactheading {
+    font-size: 200%;
+
 }
 
 @media screen and (max-width: 280px) {
@@ -569,7 +572,6 @@ footer {
 	#photos > img {
 		width: 140%;
 	}
-
 	
 }
 
