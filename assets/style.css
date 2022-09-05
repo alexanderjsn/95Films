@@ -149,6 +149,87 @@ footer {height: 150px; margin: 10px;}
 
 }
 
+/* for smaller screens (tablets and phones) */
+
+@media screen and (max-width: 480px) {
+
+    .container1 {
+        height: 100%;
+        padding: 100px;
+        border-style: none;
+        border-color: lightgrey;
+        border-width: 0px;
+        background-color: #ffff;
+        margin: auto;
+        width: 50%;
+    }
+
+    .header {
+        height: 112px;
+        padding: 0px;
+    }
+
+    #menu {
+        letter-spacing: 1px;
+        clear: left;
+        float: left;
+        margin-left: 9px;
+        margin-bottom: 40px;
+        line-height: 25px;
+        font-size: 10%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+    #hero {
+        height: 239px;
+        width: 191%;
+        margin-left: -56%;
+    }
+    
+    #aboutbanner {
+        height: 239px;
+        width: 200%;
+        margin-left: -50%;
+    }
+    
+       
+    #workbanner {
+        height: 227px;
+        width: 204%;
+        margin-left: -54%;
+    }
+    
+        .foot {
+            top: 4px;
+        }
+    
+        .aboutheading {
+            font-size: 100%;
+        }
+    
+        .aboutheading > p {
+            font-size: 60%;
+        }
+    
+        .aboutsection {
+            font-size: 100%; 
+        }
+    
+        .aboutsection > p {
+            font-size: 60%;
+            }
+    
+            .socials {
+                margin-left: 20%;
+            }
+    
+    
+
+
+}
+
 @media screen and (max-width: 390px) {
 
     .container1 {
