@@ -1,13 +1,9 @@
 /*General*/
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Poppins:wght@100&display=swap');
-
-
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	max-width: 100%;
+	overflow-x: hidden;
 }
-
 * {
 	margin: 0;
 	padding: 0;
@@ -31,7 +27,6 @@ p {
 	background-color: #FAFFFD;
 	padding: 15px;
 }
-
 /* header */
 #menu, #logo {
 	line-height: 75px;
@@ -64,30 +59,25 @@ p {
 .active {
 	border-bottom: 1px solid #161616;
 }
-
 /*main page*/
-
 #hero {
 	height: 600px;
 	width: 100%;
 	background: url(astronautfilm.jpeg)no-repeat center center;
 	overflow:hidden;
 }
-
 #aboutbanner {
 	height: 600px;
 	width: 100%;
 	background: url(AdobeStock_199991460.jpeg)no-repeat center center;
 	overflow:hidden;
 }
-
 #workbanner {
 	height: 600px;
 	width: 100%;
 	background: url(four_people_filming.jpeg)no-repeat center center;
 	overflow:hidden;
 }
-
 .aboutheading {
 	font-size: 300%;
 	float: left;
@@ -148,11 +138,9 @@ p {
 	margin-top: 50px;
 	color: #161616
 }
-
 .validationpage {
-margin-left: 20%;
+	margin-left: 20%;
 }
-
 #aboutus{
 	font-size: x-large;
 	text-align: center;
@@ -164,7 +152,6 @@ margin-left: 20%;
 	font-size: smaller;
 	text-align: left;
 }
-
 .containerone {
 	height: 100%;
 	padding:100px;
@@ -280,13 +267,11 @@ footer {
 	padding: 4%;
 	color: #161616
 }
-
 .imgmain {
 	width: 100%;
 	height: auto;
 	background: url(astronautfilm.jpeg)no-repeat center center;
 }
-
 /* media queries */
 /*for larger screens */
 @media screen and (max-width: 1280px) {
@@ -296,7 +281,6 @@ footer {
 	#photos > img {
 		width: 106%;
 	}
-
 	.foot, .contactfoot {
 		text-align: center;
 		position: relative;
@@ -306,7 +290,6 @@ footer {
 		text-align: center;
 		font-size: 200%;
 	}
-	
 }
 /* for medium screens */
 @media screen and (max-width: 950px) {
@@ -351,20 +334,20 @@ footer {
 	}
 	input[type=text] {
 		width: 80%;
-}
-input[type=tel] {
-    width: 80%;
-}
-.message {
-    width: 80%;
-}
-input[type=submit] {
-    width: 85%;
-}
-.socials, .contactsocials {
-    text-align: center;
-    font-size: 160%;
-}
+	}
+	input[type=tel] {
+		width: 80%;
+	}
+	.message {
+		width: 80%;
+	}
+	input[type=submit] {
+		width: 85%;
+	}
+	.socials, .contactsocials {
+		text-align: center;
+		font-size: 160%;
+	}
 }
 @media screen and (max-width: 768px) {
 	#hero {
@@ -413,7 +396,6 @@ input[type=submit] {
 	.form {
 		margin-left: -20%;
 	}
-
 	.header {
 		height: 20px;
 		width: 100%;
@@ -424,10 +406,10 @@ input[type=submit] {
 		float: right;
 		list-style-type: none;
 		margin-right: 55px;
-}
-.foot {
-    top: 0px;
-}
+	}
+	.foot {
+		top: 0px;
+	}
 }
 /* for smaller screens (tablets and phones) */
 @media screen and (max-width: 480px) {
@@ -460,8 +442,8 @@ input[type=submit] {
 		width: 121%;
 	}
 	#aboutbanner {
-			height: 239px;
-			width: 121%;
+		height: 239px;
+		width: 121%;
 	}
 	#workbanner {
 		height: 227px;
@@ -489,20 +471,18 @@ input[type=submit] {
 		color: #161616;
 		margin-left: -15%;
 	}
-
 	.containertwo {
-    height: 0%;
-    padding: 100px;
-    border-style: none;
-    border-color: lightgrey;
-    border-width: 0;
-    background-color: #ffff;
-    margin: auto;
-    width: 65%;
-    margin-top: -20%;
-    margin-left: -10%;
-}
-
+		height: 0%;
+		padding: 100px;
+		border-style: none;
+		border-color: lightgrey;
+		border-width: 0;
+		background-color: #ffff;
+		margin: auto;
+		width: 65%;
+		margin-top: -20%;
+		margin-left: -10%;
+	}
 	.contactfoot {
 		text-align: center;
 		position: relative;
@@ -512,35 +492,27 @@ input[type=submit] {
 	.aboutheading > p, .aboutsection > p {
 		font-size: 140%;
 	}
-
 	.form {
-     margin-left: 0%;
+		margin-left: 0%;
 	}
-
 	input[type=text] {
 		width: 100%;
 	}
-
 	input[type=tel] {
-		width: 100%; 
+		width: 100%;
 	}
-
 	.message {
 		width: 100%;
 	}
-
 	input[type=submit] {
 		width: 110%
-	}
+}
 	.contactheading {
 		font-size:300% ;
 		margin-left: 1%;
 	}
-
 }
-
 @media screen and (max-width: 390px) {
-
 	.containerone {
 		width: 36%;
 		border: none;
@@ -566,7 +538,6 @@ input[type=submit] {
 		display: flex;
 		flex-direction: row-reverse;
 	}
-
 	.foot {
 		top: 4px;
 	}
@@ -582,35 +553,31 @@ input[type=submit] {
 	}
 	#menu a {
 		font-size: x-large;
+	}
+	#photos {
+		column-count: 1;
+		line-height: 14;
+	}
+	#photos > img {
+		width: 105%;
+		margin-top: -30%;
+	}
 }
-#photos {
-    column-count: 1;
-    line-height: 14;
-}
-#photos > img {
-    width: 105%;
-    margin-top: -30%;
-}
-}
-
 @media screen and (max-width: 340px) {
-
-
-#menu li {
-    float: left;
-    list-style-type: none;
-    margin-right: 19px;
-    color: #161616;
+	#menu li {
+		float: left;
+		list-style-type: none;
+		margin-right: 19px;
+		color: #161616;
+	}
+	.contactheading {
+		font-size: 200%;
+	}
+	#photos {
+		column-count: 1;
+		line-height: 13;
+	}
 }
-.contactheading {
-    font-size: 200%;
-}
-#photos {
-    column-count: 1;
-    line-height: 13;
-}
-}
-
 @media screen and (max-width: 280px) {
 	.socials {
 		margin-left: 0%;
@@ -634,7 +601,6 @@ input[type=submit] {
 		width: 216%;
 		margin-left: -54%;
 	}
-
 	#photos {
 		column-count: 1;
 		line-height: 0;
@@ -660,5 +626,3 @@ input[type=submit] {
 		float: none;
 	}
 }
-
-
