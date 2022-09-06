@@ -1,5 +1,7 @@
 /*General*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Poppins:wght@100&display=swap');
+
+/*Code below (html, body) is taken from URL: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll */
 html, body {
 	max-width: 100%;
 	overflow-x: hidden;
@@ -90,7 +92,7 @@ p {
 	float: left;
 	text-align: left;
 }
-¨.aboutheading > h3 {
+.aboutheading > h3 {
 	font-family: "Dosis", sans-serif;
 	font-size: 10%;
 }
@@ -173,7 +175,6 @@ p {
 	width: 100%;
 }
 /* contact page */
-/*form*/
 .form {
 	float: right;
 }
@@ -411,7 +412,7 @@ footer {
 		top: 0px;
 	}
 }
-/* for smaller screens (tablets and phones) */
+/* for smaller screens */
 @media screen and (max-width: 480px) {
 	.containerone {
 		height: 100%;
@@ -531,7 +532,7 @@ footer {
 		letter-spacing: 0px;
 		clear: left;
 		float: left;
-		margin-left: 40px;
+		margin-left: 2%;
 		margin-bottom: 40px;
 		line-height: 25px;
 		font-size: 10%;
