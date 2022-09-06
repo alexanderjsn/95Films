@@ -65,19 +65,19 @@ p {
 #hero {
 	height: 600px;
 	width: 100%;
-	background: url(assets/gallery/astronautfilm.jpeg)no-repeat center center;
+	background: url(/astronautfilm.jpeg)no-repeat center center;
 	overflow:hidden;
 }
 #aboutbanner {
 	height: 600px;
 	width: 100%;
-	background: url(assets/gallery/people_filming.jpeg)no-repeat center center;
+	background: url(/fourpeoplefilming.jpeg)no-repeat center center;
 	overflow:hidden;
 }
 #workbanner {
 	height: 600px;
 	width: 100%;
-	background: url(assets/gallery/four_people_filming.jpeg)no-repeat center center;
+	background: url(/assets/gallery/two_people_filming.jpeg)no-repeat center center;
 	overflow:hidden;
 }
 .aboutheading {
