@@ -67,19 +67,16 @@ p {
 	height: 300%;
 	width: 100%;
 	overflow:hidden;
-	repeat: no-repeat center center;
 }
 #aboutbanner {
 	height: 200%;
 	width: 100%;
 	overflow:hidden;
-	repeat: no-repeat center center;
 }
 #workbanner {
 	height: 100%;
 	width: 100%;
 	overflow:hidden;
-	repeat: no-repeat center center;
 }
 .aboutheading {
 	font-size: 300%;
