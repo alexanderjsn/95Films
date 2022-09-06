@@ -14,16 +14,16 @@ html, body {
 	border: none;
 }
 body {
-	font-family: 'Poppins' sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 300;
 	background-color: #FAFFFD;
 	scroll-behavior: smooth;
 }
 h1, h2, h3 {
-	font-family: 'Bebas Neue' sans-serif;
+	font-family: "Bebas", Neue sans-serif;
 }
 p {
-	font-family:'Poppins' sans-serif;
+	font-family:"Poppins", sans-serif;
 }
 .header {
 	height: 74px;
@@ -92,16 +92,16 @@ p {
 	font-size: 300%;
 	float: left;
 	text-align: left;
-	font-family: 'Dosis' sans-serif;
+	font-family: "Dosis", sans-serif;
 }
 .aboutheading > p {
-	font-family: 'Dosis';
+	font-family: "Dosis", sans-serif;
 	font-size: 30%;
 	float: left;
 	text-align: left;
 }
 ¨.aboutheading > h3 {
-	font-family: 'Dosis';
+	font-family: "Dosis", sans-serif;
 	font-size: 10%;
 }
 .aboutsection {
@@ -119,19 +119,19 @@ p {
 	font-size: 300%;
 	float: left;
 	text-align: left;
-	font-family: 'Dosis' sans-serif;
+	font-family: "Dosis", sans-serif;
 }
 .contactheading > p {
-	font-family: 'Dosis';
+	font-family: "Dosis", sans-serif;
 	font-size: 30%;
 	float: left;
 	text-align: left;
 }
 .aboutsection > h3 {
-	font-family: 'Dosis';
+	font-family: "Dosis", sans-serif;
 }
 .aboutsection > p {
-	font-family: 'Dosis';
+	font-family: "Dosis", sans-serif;
 	font-size: 30%;
 	float: left;
 	text-align: left;
@@ -491,7 +491,7 @@ input[type=submit] {
 	}
 
 	.containertwo {
-    height: -1%;
+    height: 0%;
     padding: 100px;
     border-style: none;
     border-color: lightgrey;
@@ -556,7 +556,7 @@ input[type=submit] {
 		margin-left: 15%;
 	}
 	#menu {
-		letter-spacing: -1px;
+		letter-spacing: 0px;
 		clear: left;
 		float: left;
 		margin-left: 40px;
