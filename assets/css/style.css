@@ -65,19 +65,19 @@ p {
 #hero {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/gallery/astronautfilm.jpeg)no-repeat center center;
+	background: url(assets/gallery/astronautfilm.jpeg)no-repeat center center;
 	overflow:hidden;
 }
 #aboutbanner {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/gallery/people_filming.jpeg)no-repeat center center;
+	background: url(assets/gallery/people_filming.jpeg)no-repeat center center;
 	overflow:hidden;
 }
 #workbanner {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/gallery/four_people_filming.jpeg)no-repeat center center;
+	background: url(assets/gallery/four_people_filming.jpeg)no-repeat center center;
 	overflow:hidden;
 }
 .aboutheading {
@@ -101,11 +101,6 @@ p {
 	float: left;
 	text-align: left;
 	margin-bottom: 5%;
-}
-#portfolio {
-	font-size: 300%;
-	float: left;
-	text-align: left;
 }
 .contactheading {
 	font-size: 300%;
@@ -142,27 +137,6 @@ p {
 }
 .validationpage {
 	margin-left: 20%;
-}
-#aboutus{
-	font-size: x-large;
-	text-align: center;
-}
-#aboutus > p {
-	line-height: 90px;
-}
-.aboutp {
-	font-size: smaller;
-	text-align: left;
-}
-.containerone {
-	height: 100%;
-	padding:100px;
-	border-style: solid;
-	border-color:lightgrey;
-	border-width: 2px;
-	background-color:#ffff;
-	margin: auto;
-	width: 80%;
 }
 /* gallery */
 #photos {
@@ -201,9 +175,6 @@ input[type=submit]{
 	width: 50%;
 	height: 50px;
 	padding: 10px;
-}
-#contactwrap {
-	height: 100%;
 }
 /*background div (contact page)*/
 .containertwo {
@@ -268,11 +239,6 @@ footer {
 	padding: 4%;
 	color: #161616
 }
-.imgmain {
-	width: 100%;
-	height: auto;
-	background: url(astronautfilm.jpeg)no-repeat center center;
-}
 /* media queries */
 /*for larger screens */
 @media screen and (max-width: 1280px) {
@@ -294,15 +260,6 @@ footer {
 }
 /* for medium screens */
 @media screen and (max-width: 950px) {
-	.containerone {
-		height: 100%;
-		padding: 100px;
-		border-style: none;
-		border-color: lightgrey;
-		border-width: 0px;
-		background-color: #ffff;
-		margin: auto;
-	}
 	#hero {
 		height: 600px;
 		width: 131%;
@@ -414,16 +371,6 @@ footer {
 }
 /* for smaller screens */
 @media screen and (max-width: 480px) {
-	.containerone {
-		height: 100%;
-		padding: 100px;
-		border-style: none;
-		border-color: lightgrey;
-		border-width: 0px;
-		background-color: #ffff;
-		margin: auto;
-		width: 120px;
-	}
 	#logo {
 		margin-left: 15%;
 	}
@@ -523,10 +470,6 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
-	.containerone {
-		width: 36%;
-		border: none;
-	}
 	.header {
 		height: 112px;
 		padding: 0px;
