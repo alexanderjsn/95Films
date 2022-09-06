@@ -6,8 +6,6 @@ The site will be targeted for potential customers of the company.
 ![This is an image](../responsive_website.png)
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 
 ### Navigation Bar
 
@@ -24,7 +22,7 @@ tells the user what kind of services the company offers and a the company backgr
 
 ![This is an image](../main_section.png)
 
-## The Footer
+## Footer
 
 The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media. 
@@ -55,15 +53,6 @@ cover the page when clicked on and would be easily closed again. This feature wo
 currently on the site, as it would provide the site with a more accessible approach. 
 
 # Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended,
- with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Validator Testing
 
@@ -73,17 +62,15 @@ If this section grows too long, you may want to split it off into a separate fil
 No errors were returned when passing through the official W3C validator
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
+
+### Fixed Bugs
+
+
 ### Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://alexanderjsn.github.io/95Films/
 
 # Credits
 
@@ -99,4 +86,3 @@ The royalty free photos used on the home page are from https://stock.adobe.com/
 The royalty free images used for the gallery page were taken from https://stock.adobe.com/
 
 ## Acknowledgements
-cc
