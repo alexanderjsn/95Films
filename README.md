@@ -106,7 +106,7 @@ The navigation bar switches positions slightly at different screen sizes. Media 
 - The code to remove the horizontal scroll that appeared on smaller screens were taken from [Stack Overflow](https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll)
 - Instructions on how to make the social media links and footer were taken from the [CI LoveRunning project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery)
 - Instructions on how to make the navigation bar were taken from the [CI Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery)
-- Instructions on how to make the gallery were taken from the [CI Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery)
+- Instructions on how to make the gallery and homepage images were taken from the [CI Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery)
 
 ## Media
 - The royalty free photos used on the home page are from https://stock.adobe.com/
