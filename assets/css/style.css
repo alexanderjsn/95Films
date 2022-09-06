@@ -491,7 +491,13 @@ footer {
 		position: relative;
 		top: 12px;
 		font-size: small;
+		right: 12%;
 	}
+
+    .socials, .contactsocials {
+        font-size: 120%;
+    }
+
 	.aboutheading > p, .aboutsection > p {
 		font-size: 140%;
 	}
@@ -515,6 +521,7 @@ footer {
 		margin-left: 1%;
 	}
 }
+
 @media screen and (max-width: 390px) {
 	.containerone {
 		width: 36%;
@@ -534,7 +541,7 @@ footer {
 		letter-spacing: 0px;
 		clear: left;
 		float: left;
-		margin-left: 2%;
+		margin-left: 7%;
 		margin-bottom: 40px;
 		line-height: 25px;
 		font-size: 10%;
@@ -582,6 +589,10 @@ footer {
 	}
 }
 @media screen and (max-width: 280px) {
+	.contactfoot {
+		top: 0%;
+		left: 1%;
+	}
 	.socials {
 		margin-left: 0%;
 	}
